@@ -2,7 +2,7 @@ module.exports = {
   entry: './main.js',
   output: {
     path: '/dev/shm/dist/',
-    filename: 'sjournal.bundle.js'
+    filename: 'terminal-string.bundle.js'
   },
   module: {
     rules: [
