@@ -8,7 +8,7 @@ When using the terminal, you can highlight text by changing the font color, back
 
 ![Example](./docs/example.png)
 
-Convenient syntax makes this clear and convenient.
+The simple syntax makes it clear and convenient.
 
 ## Installation
 
@@ -19,14 +19,14 @@ $ npm i terminal-string
 ## Usage
 
 ``` js
-const Tstring = require('../main');
+const Tstring = require('terminal-string');
 
 const line = new Tstring()
   .bg.red('2024/03/22').reset(' ')
   .normal('Example for ')
-  .fg.green('Node.js').reset()
+  .bg.green().bright(' Node.js ').reset()
   .normal(' project with ')
-  .reverse('terminal-string').reset()
+  .reverse(' terminal-string ').reset()
   .normal(' package.')
   .toString();
 console.log(line);
