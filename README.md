@@ -1,12 +1,12 @@
 # Convenient syntax for adding color effects to text for the terminal
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pi1igrim/blob/main/LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pi1igrim/terminal-string/blob/main/LICENSE)
 
 ## Description
 
 When using the terminal, you can highlight text by changing the font color, background color, or assigning special effects.
 
-\!\[Example\]\(https://github\.com/pi1igrim/blob/main/docs/example\.png a "example"\)
+![Example](https://github.com/pi1igrim/terminal-string/blob/main/docs/example.png a "example")
 
 Convenient syntax makes this clear and convenient.
 
@@ -79,4 +79,4 @@ console.log(line);
 
 ## License
 
-[MIT](https://github.com/pi1igrim/blob/main/LICENSE)
+[MIT](https://github.com/pi1igrim/terminal-string/blob/main/LICENSE)
