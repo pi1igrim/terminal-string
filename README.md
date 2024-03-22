@@ -1,20 +1,34 @@
-# terminal-string
+# Convenient syntax for adding color effects to text for the terminal
 
-Adding color effects to a terminal string
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pi1igrim/blob/main/LICENSE)
+
+## Description
+
+When using the terminal, you can highlight text by changing the font color, background color, or assigning special effects.
+
+\!\[Example\]\(https://github\.com/pi1igrim/blob/main/docs/example\.png a "example"\)
+
+Convenient syntax makes this clear and convenient.
 
 ## Installation
 
-``` ssh
-npm i terminal-string -D
-  or
-yarn add terminal-string -D
+``` bash
+$ npm i terminal-string
 ```
 
 ## Usage
 
 ``` js
+const Tstring = require('../main');
+
 const line = new Tstring()
-  .bg.red('2021/12/01').reset(' ').reverse('Test 1').reset().toString();
+  .bg.red('2024/03/22').reset(' ')
+  .normal('Example for ')
+  .fg.green('Node.js').reset()
+  .normal(' project with ')
+  .reverse('terminal-string').reset()
+  .normal(' package.')
+  .toString();
 console.log(line);
 ```
 
@@ -28,41 +42,41 @@ console.log(line);
 
 ### Specification
 
-- Text Effects
-  > normal(): continue shows text without setting color effects;
-  > reset(): clears all formatting. Sure that you call it at the end of using the terminal;
-  > bright(): displays text with the bright effect;
-  > dim(): displays text with the dim effect;
-  > underscore(): display text with underscore;
-  > blink(): displays text with the blink effect;
-  > reverse(): changes background and foreground colors to opposite ones;
-  > hidden(): displays text with the hidden effect;
-- Foreground (text) colors
-  > fg.black()
-  > fg.red()
-  > fg.green()
-  > fg.yellow()
-  > fg.blue()
-  > fg.magenta()
-  > fg.cyan()
-  > fg.white()
-  > fg.crimson()
-
-- Background colors
-  > bg.black()
-  > bg.red()
-  > bg.green()
-  > bg.yellow()
-  > bg.blue()
-  > bg.magenta()
-  > bg.cyan()
-  > bg.white()
-  > bg.crimson()
+* Text Effects
+    * normal(): continue shows text without setting color effects;
+    * reset(): clears all formatting. Sure that you call it at the end of using the terminal;
+    * bright(): displays text with the bright effect;
+    * dim(): displays text with the dim effect;
+    * underscore(): display text with underscore;
+    * blink(): displays text with the blink effect;
+    * reverse(): changes background and foreground colors to opposite ones;
+    * hidden(): displays text with the hidden effect;
+* Foreground (text) colors
+    * fg.black()
+    * fg.red()
+    * fg.green()
+    * fg.yellow()
+    * fg.blue()
+    * fg.magenta()
+    * fg.cyan()
+    * fg.white()
+    * fg.crimson()
+* Background colors
+    * bg.black()
+    * bg.red()
+    * bg.green()
+    * bg.yellow()
+    * bg.blue()
+    * bg.magenta()
+    * bg.cyan()
+    * bg.white()
+    * bg.crimson()
 
 ## History
 
 * v1.0.0: Implemented simple syntax.
+* v1.1.0: Unnecessary packages has been removed. Added project and author links. Improved the documentation.
 
 ## License
 
-MIT
+[MIT](https://github.com/pi1igrim/blob/main/LICENSE)

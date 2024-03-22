@@ -51,7 +51,7 @@ describe('Colorful Text', () => {
 
   test.skip('try', () => {
     const line = new Tstring()
-      .bg.red('2021/12/01').reset(' ').reverse('Test 1').reset().toString();
+      .bg.red('2021/12/01').reset(' ').reverse('Example').reset().toString();
     console.log(line);
   });
 });

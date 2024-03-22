@@ -1,10 +1,15 @@
 {
   "name": "terminal-string",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Adding color effects to the terminal string",
   "main": "main.js",
   "license": "MIT",
   "keywords": [
+    "nodejs",
+    "javascript",
+    "node",
+    "tools",
+    "utilities",
     "display",
     "terminal",
     "console",
@@ -25,13 +30,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myname/mypackage.git"
+    "url": "git+https://github.com/pi1igrim/terminal-string.git"
   },
   "author": "Alexander Ponezha",
   "bugs": {
-    "url": "https://github.com/myname/mypackage/issues"
+    "url": "https://github.com/pi1igrim/terminal-string/issues"
   },
-  "homepage": "https://github.com/myname/mypackage#readme",
+  "homepage": "https://github.com/pi1igrim/terminal-string#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^9.1.2",
