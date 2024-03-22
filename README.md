@@ -6,7 +6,7 @@
 
 When using the terminal, you can highlight text by changing the font color, background color, or assigning special effects.
 
-![Example](https://github.com/pi1igrim/terminal-string/blob/main/docs/example.png a "example")
+![Example](./docs/example.png)
 
 Convenient syntax makes this clear and convenient.
 
@@ -74,7 +74,7 @@ console.log(line);
 
 ## History
 
-* v1.0.0: Implemented simple syntax.
+* v1.0.0: Implemented the project.
 * v1.1.0: Unnecessary packages has been removed. Added project and author links. Improved the documentation.
 
 ## License
